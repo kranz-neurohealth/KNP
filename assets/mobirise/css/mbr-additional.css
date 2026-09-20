@@ -3271,7 +3271,9 @@ img,
 }
 @media (max-width: 991px) {
   .cid-vv58rs4Vr1 .navbar-brand {
-    margin-right: auto;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+    order: 1 !important;
   }
   .cid-vv58rs4Vr1 .navbar-collapse {
     z-index: -1 !important;
@@ -3338,6 +3340,26 @@ img,
     flex-direction: column;
     align-items: flex-start;
   }
+  .cid-vv58rs4Vr1 .navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .cid-vv58rs4Vr1 .navbar .dropdown,
+  .cid-vv58rs4Vr1 .navbar .lang,
+  .cid-vv58rs4Vr1 .navbar .language,
+  .cid-vv58rs4Vr1 .navbar [class*="lang"],
+  .cid-vv58rs4Vr1 .navbar .nav-item.dropdown {
+    order: 2 !important;
+    margin-left: auto !important;
+    margin-right: 8px !important;
+  }
+  .cid-vv58rs4Vr1 .navbar-toggler {
+    order: 3 !important;
+    margin-left: 0 !important;
+  }
 }
 @media (max-width: 575px) {
   .cid-vv58rs4Vr1 .navbar-collapse {
@@ -3351,7 +3373,7 @@ img,
   object-fit: cover !important;
 }
 .cid-vv58rtSsuc {
-  background-image: url("../../../assets/images/group202-1312x784.jpeg");
+  background-image: url("../../../assets/images/group201-1152x864.jpeg");
 }
 .cid-vv58rtSsuc .mbr-fallback-image.disabled {
   display: none;
@@ -3662,6 +3684,27 @@ img,
 .cid-vv58ruNthf .mbr-section-title,
 .cid-vv58ruNthf .title-wrapper {
   text-align: center;
+}
+@media (max-width: 767px) {
+  .cid-vv58ruNthf .card-header,
+  .cid-vv58ruNthf .card-header *,
+  .cid-vv58ruNthf .accordion-button,
+  .cid-vv58ruNthf .accordion-header,
+  .cid-vv58ruNthf .accordion-header *,
+  .cid-vv58ruNthf .panel-title,
+  .cid-vv58ruNthf .panel-title *,
+  .cid-vv58ruNthf .card .card-title,
+  .cid-vv58ruNthf .card .card-subtitle {
+    font-size: 1.15rem !important;
+    line-height: 1.35 !important;
+    font-weight: 600 !important;
+  }
+  .cid-vv58ruNthf .card-header,
+  .cid-vv58ruNthf .accordion-button,
+  .cid-vv58ruNthf .panel-title {
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
 }
 .cid-vv58rwcHhZ {
   padding-top: 6rem;
