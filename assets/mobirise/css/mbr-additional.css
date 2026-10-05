@@ -4472,6 +4472,11 @@ img,
   position: absolute;
   top: 0;
 }
+@media (max-width: 767px) {
+  .cid-vx9nt1j22k .img-link {
+    display: none !important;
+  }
+}
 .cid-vx9oYvMx6F {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -4565,6 +4570,11 @@ img,
   height: 100%;
   position: absolute;
   top: 0;
+}
+@media (max-width: 767px) {
+  .cid-vx9oYvMx6F .img-link {
+    display: none !important;
+  }
 }
 .cid-vx98LEgSh5 {
   z-index: 1000;
